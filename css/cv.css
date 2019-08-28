@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img[ src="https://res.cloudinary.com/techietee/image/upload/v1566563013/IMG_20190703_001242_849_ecvqyb.jpg"] {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.all {
+  margin: 10px;
+  font-style: san-sarrif;
+}
