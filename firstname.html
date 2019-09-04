@@ -5,8 +5,10 @@
     <title>
       techietee's task
     </title>
+    <link rel="stylesheet" href="cv.css">
   </head>
   <body>
+    <div class="all">
     <center><h1>BELLO, FATIMA MODUPE</h1></center>
     <hr />
     <center>Mobile: <a href="09031703106">09031703106</a></center>
@@ -15,6 +17,7 @@
     </center>
     <br>
     <img src="https://res.cloudinary.com/techietee/image/upload/v1566563013/IMG_20190703_001242_849_ecvqyb.jpg" height="50%" width="50%" alt="">
+   
     <div>
       <h4>CAREER OBJECTIVE</h4>
       <hr />
@@ -119,6 +122,46 @@
       way, Kaduna Nigeria.<br/>
       <b> Phone: </b>  <a href="08031191231"> 08031191231</a> <b> Email: </b> 
       <a href="emmydiks@gmail.com ">emmydiks@gmail.com </a><p />
-     
+    </div>
+    <div class="contact-modal-open-btn" style="float: right; margin-right:10%">
+      <h2>Contact me</h2>
+  </div>
+  
+
+      <div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="container">  
+                <form id="contact-form">
+                  <h3>Wanna reach me?.</h3>
+                  <h4>Fill this form and get reply with in 24 hours!</h4>
+                  <span id="close-btn">&times;</span>
+
+                  <fieldset>
+                    <input type="text" id="title" required autofocus placeholder="Message Title">
+                    
+                  </fieldset>
+
+                  
+                  <fieldset>
+                    <input type="text" id="name" required minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit"  onclick="alert('Thank you for contacting me! The pleasure is mine.')"><a href="firstname.html" style="text-decoration: none;">
+                      Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+
+        <script src="contact.js"></script>
   </body>
 </html>
